@@ -1,4 +1,0 @@
-#!/bin/bash
-
-Name="Jhon"
-echo "Hello $Name"
