@@ -6,7 +6,6 @@ exec 1>log.out 2>&1
 
 echo `date '+%Y-%m-%d %H:%M:%S'`
 
-n=0
 for ((n=0;n<20;n++)); do
 
 iperf_server=$(iperf3 -c bouygues.iperf.fr)
